@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-    <a href="https://electronicshop.rf.gd">
+    <a href="https://drivelistenkorea.rf.gd">
         <img src="https://img.shields.io/badge/version-Drive%20Listen%20Korea%20v1.2.0-yellow"/>
     </a>
     <a href="https://github.com/zcode25/dlk">
