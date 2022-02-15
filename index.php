@@ -23,6 +23,9 @@
 
     <div id="vidtop-content">
         <div class="vid-info">
+            <div class="img">
+                <img src="img/logo.png" alt="" width="50px">
+            </div>
             <h3>Drive Listen Korea</h3>
             <audio autoplay id="myAudio">
                 <source src="https://listen.moe/kpop/stream" type="audio/mpeg">
@@ -32,7 +35,7 @@
                 <a class="btn" onclick="playAudio()">Play Audio</a>
                 <a class="btn" onclick="pauseAudio()">Pause Audio</a>
                 <div class="slidecontainer">
-                    <input type="range" class="slider" id="rngVolume" min="0" max="1" step=".01" value=".5" />
+                    <input type="range" class="slider" id="rngVolume" min="0" max="1" step=".01" value=".3" />
                 </div>
             </div>
             <br>
