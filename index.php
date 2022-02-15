@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png">
     <title>Drive Listen Korea</title>
 </head>
 
@@ -18,7 +18,7 @@
     </div>
 
     <div class="hide">
-        <a onclick="myFunction()"><img src="icon.png" width="15px" alt=""></a>
+        <a onclick="myFunction()"><img src="img/icon.png" width="15px" alt=""></a>
     </div>
 
     <div id="vidtop-content">
@@ -46,45 +46,7 @@
         </div>
     </div>
 
-    <script type="text/javascript">
-        var el = document.getElementById("myAudio");
-        document.getElementById("rngVolume").addEventListener('input', setVolume);
-
-        function setVolume() {
-            var volume = document.getElementById('rngVolume').value;
-            el.volume = volume;
-        }
-
-        function playAudio() {
-            el.play();
-        }
-
-        function pauseAudio() {
-            el.pause();
-        }
-
-        function myFunction() {
-            var x = document.getElementById("vidtop-content");
-
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-
-        var header = document.getElementById("myDIV");
-        var btns = header.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-                var current = document.getElementsByClassName("active");
-                if (current.length > 0) {
-                    current[0].className = current[0].className.replace(" active", "");
-                }
-                this.className += " active";
-            });
-        }
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

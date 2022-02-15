@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://drivelistenkorea.rf.gd">
-        <img src="logo.png" alt="dlk" width="100px" />
+        <img src="img/logo.png" alt="dlk" width="100px" />
     </a>
     <h1 align="center">Drive Listen Korea (DLK)</h1>
 </div>
@@ -19,6 +19,7 @@
 </div>
 
 ## Technology used
+
 - HTML
 - CSS
 - JavaScript
@@ -26,19 +27,24 @@
 - YouTube IFrame Player API
 
 ## Development
+
 ### Sources
+
 - YouTube IFrame Player API (https://developers.google.com/youtube/iframe_api_reference)
 
 ### Installation
+
 - Open the XAMPP application, then run the Apache modules.
 - Open the `/htdocs` folder.
 - Open Git Bash, then run `git clone https://github.com/zcode25/dlk.git`.
 - Open `http://localhost/dlk` with your browser to see the result.
 
 ## Contribute
+
 Please contribute! Issues and pull requests are welcome. Thank you for your help improving the e-shop software!
 
 ## Contacts
--  Email : adamzein345@gmail.com
--  Instagram 1 : [@azein25](https://www.instagram.com/azein25/)
--  Instagram 2 : [@zcode25](https://www.instagram.com/zcode25/)
+
+- Email : adamzein345@gmail.com
+- Instagram 1 : [@azein25](https://www.instagram.com/azein25/)
+- Instagram 2 : [@zcode25](https://www.instagram.com/zcode25/)
